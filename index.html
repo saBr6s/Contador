@@ -17,11 +17,12 @@
         }
 
         body {
-            background-image: url('https://wallpapers.com/images/hd/hello-kitty-pc-uoaytfzu54x4f6e9.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background-color: #fce4ec;
+            background-image: url('kitty-pattern.png');
+            background-repeat: repeat;
             background-attachment: fixed;
+            background-size: 140px auto;
+            background-position: 10px 10px;
 
             min-height: 100vh;
             color: #ff69b4;
@@ -45,10 +46,10 @@
         margin-bottom: 20px;
         color: white;
         text-shadow:
-            -3px -3px 0 #e91e63,
-            3px -3px 0 #e91e63,
-            -3px 3px 0 #e91e63,
-            3px 3px 0 #e91e63;
+            -2px -2px 0 #e91e63,
+            2px -2px 0 #e91e63,
+            -2px 2px 0 #e91e63,
+            2px 3px 0 #e91e63;
             0px 5px 10px rgba(0, 0, 0, 0.2);
     }
 
@@ -57,10 +58,10 @@
         margin-bottom: 30px;
         color: white;
         text-shadow:
-        -3px -3px 0 #ff1493,  
-            3px -3px 0 #ff1493,
-            -3px 3px 0 #ff1493,
-            3px 3px 0 #ff1493,
+        -2.5px -2.5px 0 #ff1493,  
+            2.5px -2.5px 0 #ff1493,
+            -2.5px 2.5px 0 #ff1493,
+            2.5px 2.5px 0 #ff1493,
             0px 8px 15px rgba(0, 0, 0, 0.3);;
     }
 
@@ -77,10 +78,10 @@
         font-family: 'Titan One', cursive;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         text-shadow:
-        -3px -3px 0 #ff1493,  
-            3px -3px 0 #ff1493,
-            -3px 3px 0 #ff1493,
-            3px 3px 0 #ff1493,
+        -1.5px -1.5px 0 #ff1493,  
+            1.5px -1.5px 0 #ff1493,
+            -1.5px 1.5px 0 #ff1493,
+            1.5px 1.5px 0 #ff1493,
             0px 8px 15px rgba(0, 0, 0, 0.3);;
     }
 
@@ -95,7 +96,7 @@
 </head>
 <body>
     <section>   
-        <h1>Contador da Hello Kitty</h1>
+        <h1>Contador<div>Hello Kitty</div></h1>
         <p id="resultado"></p>
         <button onclick="diminuir()">Menos</button>
         <button onclick="aumentar()">Mais</button>
